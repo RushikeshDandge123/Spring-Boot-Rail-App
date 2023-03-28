@@ -11,6 +11,12 @@ public class Ticket {
 	private String trainNum;
 	private String tktCost;
 	private String tktStatus;
+	
+	public Ticket(){
+	
+	
+	
+	}
 
 	public Integer getTicketId() {
 		return ticketId;
