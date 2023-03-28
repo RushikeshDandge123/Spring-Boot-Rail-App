@@ -16,6 +16,7 @@ public class SwaggerConfig {
 
 		return name;
 	}
+	//bean method
 	@Bean
 	public Docket apiDoc() {
 		
