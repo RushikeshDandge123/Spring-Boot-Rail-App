@@ -12,6 +12,10 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2
 public class SwaggerConfig {
 
+	public String getSwagger(String name){
+
+		return name;
+	}
 	@Bean
 	public Docket apiDoc() {
 		
