@@ -8,6 +8,11 @@ public class Passenger {
 	private String to;
 	private String doj;
 	private String tainNum;
+	
+	public Passenger(){
+	
+	
+	}
 
 	public String getFname() {
 		return fname;
